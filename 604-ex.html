@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Busy - 电商</title>
+    <style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    em,
+    i {
+        font-style: normal;
+    }
+    
+    input {
+        border: none;
+        background: none;
+        outline: none;
+    }
+    
+    .shopping_item {
+        border: #ccc solid 1px;
+        width: 800px;
+        margin: 20px auto;
+    }
+    
+    .shopping_tit {
+        height: 31px;
+        background-color: #e2e2e2;
+        border-top: solid 1px #F8F8F8;
+        color: #444444;
+        font: 16px/31px "Microsoft YaHei", "微软雅黑";
+        text-indent: 12px;
+        border-bottom: #E3E3E3 solid 1px;
+    }
+    
+    .shopping_cont {
+        padding: 15px 30px;
+        /*【任务1】*/
+        float: right;
+    }
+    
+    .cart_rmb {
+        margin-bottom: 20px;
+    }
+    
+    .cart_rmb span {
+        font: bold 24px/1 Verdana;
+        color: red;
+    }
+    
+    .cart_btn {
+        width: 165px;
+        height: 33px;
+        background-color: #E50007;
+        font: 18px/33px "Microsoft YaHei", "微软雅黑";
+        color: #FFF;
+    }
+    
+    .clearfix:after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+    
+    .clearfix {
+        zoom: 1;
+    }
+    
+    .cart_btnBox {
+        text-align: right;
+    }
+    </style>
+</head>
+
+<body>
+    <div class="shopping_item clearfix">
+        <h3 class="shopping_tit">订单结算</h3>
+        <div class="shopping_cont">
+            <div class="cart_rmb">
+                <i>总计：</i><span>￥12306.00</span>
+            </div>
+            <div class="cart_btnBox">
+                <input type="button" class="cart_btn" value="提交订单">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
